@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Simple-Shop</title>
+</head>
+<body>
+    <header>
+        <a href="/" class="header-logo">
+            <img src="images/logoooo.png" alt="Our Logo" class="header-logo-img">
+        </a> 
+        <nav class="header-nav">
+            <button class="navbar-toggle" id="navbar-toggle"><i class="fas fa-bars"></i></button>
+            <ul class="header-nav-list" id="header-nav-list">
+                <li class="header-nav-item"><a href="/furniture" class="header-nav-link">Furniture</a></li>
+                <li class="header-nav-item"><a href="/armories" class="header-nav-link">Armories</a></li>
+                <li class="header-nav-item"><a href="/study-table" class="header-nav-link">Study Table</a></li>
+                <li class="header-nav-item"><a href="/plastic-chair" class="header-nav-link">Plastic Chair</a></li>
+                <li class="header-nav-item"><a href="/wardopes" class="header-nav-link">Wardopes</a></li>
+                <li class="header-nav-item"><a href="/more" class="header-nav-link">More</a></li>
+            </ul>
+        </nav>
+        <div class="header-icons">
+            <a href="/search" class="header-icon-link"><i class="fas fa-search"></i></a>
+            <a href="/profile" class="header-icon-link"><i class="fas fa-user"></i></a>
+            <a href="/cart" class="header-icon-link"><i class="fas fa-shopping-bag"><span>Your Bag</span></i></a>
+        </div>
+    </header>
+
+    <!--Switch images section-->
+    <div class="switching-image-container">
+        <div class="switching-image"></div>
+    </div>
+
+    <!--Special Category Section-->
+    <div class="special-category-section">
+    <h3>Special Category</h3>
+    <div class="special-category-section-container">
+        <div class="special-category-section-item-container">
+        <img src="images/category-banner1.jpg" alt="chair pic">
+        <span class="most">Most Popular</span>
+        <span>Classic Chair Collection</span>
+        </div>
+        <div class="special-category-section-item-container">
+            <img src="images/category-banner2.jpg" alt="chair pic">
+            <span class="most">Most Popular</span>
+            <span>Classic Chair Collection</span>
+            </div>
+            <div class="special-category-section-item-container">
+                <img src="images/category-banner3.jpg" alt="chair pic">
+                <span class="most">Most Popular</span>
+                <span>Classic Chair Collection</span>
+                </div>
+                <div class="special-category-section-item-container">
+                    <img src="images/category-banner4.jpg" alt="chair pic">
+                    <span class="most">Most Popular</span>
+                    <span>Classic Chair Collection</span>
+                    </div>
+                    <div class="special-category-section-item-container">
+                        <img src="images/08-378x450.jpg" alt="chair pic">
+                        <span class="most">Most Popular</span>
+                        <span>Wooden Chair Collection</span>
+                        </div>
+                        <div class="special-category-section-item-container">
+                            <img src="images/03-378x450.jpg" alt="chair pic">
+                            <span class="most">Most Popular</span>
+                            <span>Tool Chair Collection</span>
+                            </div>
+                            <div class="special-category-section-item-container">
+                                <img src="images/03-378x450.jpg" alt="chair pic">
+                                <span class="most">Most Popular</span>
+                                <span>Study Chair Collection</span>
+                                </div>
+                                <div class="special-category-section-item-container">
+                                    <img src="images/10-378x450.jpg" alt="chair pic">
+                                    <span class="most">Most Popular</span>
+                                    <span>Classic Chair Collection</span>
+                                    </div>
+        </div>
+        <div class="navigation-dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+    </div>
+
+        <!--Special Category Section Part2-->
+
+<div class="special-category-section-part2">
+
+    <div class="special-category-section-right">
+        <div class="title">
+        <i class="fas fa-bullhorn marketing-icon"></i>
+        <div class="special-category-section-right-header">
+         <h2>Penelope Astrid</h2>
+         <span>(Marketing)</span>
+        </div>
+        </div>
+        <span class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum inventore, illo doloremque expedita enim voluptate modi tempore veritatis voluptas consequuntur commodi ipsum nisi, quas adipisci. Eos aperiam ipsa assumenda deleniti?</span>
+    </div>
+    <div class="special-category-big-div"> 
+<div class="special-category-section-left">
+<img src="images/cms-banner-1.jpg" alt="discount img">
+<div class="discount-div">
+    <span class="discount-div-span1">20% Discount</span>
+    <span class="discount-div-span2">Designing Interior</span>
+</div>
+</div>
+
+<div class="special-category-section-left">
+    <img src="images/cms-banner-2.jpg" alt="discount img">
+<div class="discount-div">
+    <span class="discount-div-span1">30% Discount</span>
+    <span class="discount-div-span2">Wooden Study Table</span>
+</div>
+</div>
+</div>
+</div>
+<!--Services Section-->
+
+<div class="services-section">
+    <div class="services-section-container">
+    <img src="images/services.png" alt="service-icon">
+    <h1>Free Delivery</h1>
+    <span>Free shipping on all orders</span>
+    </div>
+    <div class="services-section-container">
+        <img src="images/discountt.png" alt="service-icon">
+        <h1>Member Discount</h1>
+        <span>On every order over than 130.0$</span>
+        </div>
+        <div class="services-section-container">
+            <img src="images/money.png" alt="service-icon">
+            <h1>Money Return</h1>
+            <span>Back gurntee in 7 days</span>
+            </div>
+            <div class="services-section-container">
+                <img src="images/icon_return_product-300x300.png" alt="service-icon">
+                <h1>Return Policy</h1>
+                <span>Send within 30 days</span>
+                </div>
+                <div class="services-section-container">
+                    <img src="images/support.png" alt="service-icon">
+                    <h1>Online support</h1>
+                    <span>Support 24 hours a day</span>
+                    </div>
+</div>
+
+<!--Fetured Products-->
+
+<div class="fetured-products">
+    <h3>Fetured Products</h3>
+    <div class="fetured-products-span-container">
+    <span>Wooden Chair</span>
+    <span>Plastic Chair</span>
+    <span>Study Table</span>
+    <span>Armories</span>
+    </div>
+<div class="fetured-products-container">
+<div class="fetured-products-item-container">
+    <img src="images/03-378x450.jpg" alt="product pic">
+    <div class="star-rating">
+        <span class="star" data-rating="1" style="color: #ffb300;">&#9733;</span>
+        <span class="star" data-rating="2" style="color: #ffb300;">&#9733;</span>
+        <span class="star" data-rating="3" style="color: #ffb300;">&#9733;</span>
+        <span class="star" data-rating="4" style="color: #ffb300;">&#9733;</span>
+        <span class="star" data-rating="5" style="color: #ccc;">&#9733;</span>
+    </div>
+    <span class="item-name">Alquam Quaerat</span>
+    <span class="price">108.80$</span>
+</div>
+<div class="fetured-products-item-container">
+    <img src="images/10-378x450.jpg" alt="product pic">
+    <div class="star-rating">
+        <span class="star" data-rating="1" style="color: #ffb300;">&#9733;</span>
+        <span class="star" data-rating="2" style="color: #ffb300;">&#9733;</span>
+        <span class="star" data-rating="3" style="color: #ccc;">&#9733;</span>
+        <span class="star" data-rating="4" style="color: #ccc;">&#9733;</span>
+        <span class="star" data-rating="5" style="color: #ccc;">&#9733;</span>
+    </div>
+    <span class="item-name">Leborum Dvenlet</span>
+    <span class="price">97.99$</span>
+</div>
+<div class="fetured-products-item-container">
+    <img src="images/03-378x450.jpg" alt="product pic">
+    <div class="star-rating">
+        <span class="star" data-rating="1" style="color: #ffb300;">&#9733;</span>
+        <span class="star" data-rating="2" style="color: #ffb300;">&#9733;</span>
+        <span class="star" data-rating="3" style="color: #ffb300;">&#9733;</span>
+        <span class="star" data-rating="4" style="color: #ffb300;">&#9733;</span>
+        <span class="star" data-rating="5" style="color: #ccc;">&#9733;</span>
+    </div>
+    <span class="item-name">Alquam Quaerat</span>
+    <span class="price">108.80$</span>
+</div>
+<div class="fetured-products-item-container">
+    <img src="images/category-banner3.jpg" alt="product pic">
+    <div class="star-rating">
+        <span class="star" data-rating="1" style="color: #ffb300;">&#9733;</span>
+        <span class="star" data-rating="2" style="color: #ffb300;">&#9733;</span>
+        <span class="star" data-rating="3" style="color: #ffb300;">&#9733;</span>
+        <span class="star" data-rating="4" style="color: #ccc;">&#9733;</span>
+        <span class="star" data-rating="5" style="color: #ccc;">&#9733;</span>
+    </div>
+    <span class="item-name">Exenctial Virginia</span>
+    <span class="price">104.00$</span>
+</div>
+<div class="fetured-products-item-container">
+    <img src="images/category-banner2.jpg" alt="product pic">
+    <div class="star-rating">
+        <span class="star" data-rating="1" style="color: #ffb300;">&#9733;</span>
+        <span class="star" data-rating="2" style="color: #ffb300;">&#9733;</span>
+        <span class="star" data-rating="3" style="color: #ffb300;">&#9733;</span>
+        <span class="star" data-rating="4" style="color: #ffb300;">&#9733;</span>
+        <span class="star" data-rating="5" style="color: #ccc;">&#9733;</span>
+    </div>
+    <span class="item-name">Commodi Consquaror</span>
+    <span class="price">134.00$</span>
+</div>
+<div class="fetured-products-item-container">
+    <img src="images/03-378x450.jpg" alt="product pic">
+    <div class="star-rating">
+        <span class="star" data-rating="1" style="color: #ffb300;">&#9733;</span>
+        <span class="star" data-rating="2" style="color: #ffb300;">&#9733;</span>
+        <span class="star" data-rating="3" style="color: #ffb300;">&#9733;</span>
+        <span class="star" data-rating="4" style="color: #ffb300;">&#9733;</span>
+        <span class="star" data-rating="5" style="color: #ccc;">&#9733;</span>
+    </div>
+    <span class="item-name">Alquam Quaerat</span>
+    <span class="price">108.80$</span>
+</div>
+</div>
+</div>
+<!--Event Section-->
+<div class="event-section">
+    <div class="event-section-img">
+    <img src="images/cms-banner-1.jpg" alt="unloaded image">
+    </div>
+    <div class="event-section-post-container">
+        <div class="event-section-post-item-container"
+    <div class="event-section-post">
+        <div class="event-section-post-date">
+    <span class="day">28</span>
+    <span class="year">May,2024</span>
+        </div>
+        <span>Lorem ipsum dolor sit amet event.</span>
+    </div>
+    <span class="desc-event">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, ut iusto. Voluptate aperiam velit voluptas. Animi praesentium consequatur nesciunt molestiae consequuntur voluptatibus ipsa iusto reiciendis, omnis perferendis aliquid dicta. Hic?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error delectus fugiat officiis nam excepturi dolorum aliquam consequatur totam ratione molestias, culpa quam voluptatem dignissimos architecto sunt unde numquam minus! Obcaecati.</span>
+    <div class="event-section-btn-div">
+        <button class="event-section-btn"></button>
+        <button class="event-section-btn"></button>
+        <button class="event-section-btn"></button>
+    </div>
+    </div>
+</div>
+<!--Poster Section-->
+<div class="poster-section">
+    <img src="images/1-130x87.png" alt="poster img">
+    <img src="images/3-130x87.png" alt="poster img">
+    <img src="images/4-130x87.png" alt="poster img">
+    <img src="images/1-130x87.png" alt="poster img">
+    <img src="images/3-130x87.png" alt="poster img">
+    <img src="images/4-130x87.png" alt="poster img">
+</div>
+
+<!--Footer-->
+
+<footer>
+    <div class="footer-container">
+<img src="images/logoooo.png" alt="error downloading logo">
+<span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis ea eos, ratione porro vitae ipsam placeat similique, ipsa dolores veniam vel, a illo! Perspiciatis consequuntur harum ullam consequatur incidunt ipsam.</span>
+<div class="footer-container-btn">
+    <a href="https://apps.apple.com/us/app" target="_blank">
+        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" class="store-button">
+    </a>
+    <a href="https://play.google.com/store" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" class="store-button">
+    </a>
+</div> 
+</div>
+    <div class="footer-container">
+        <h1>Information</h1>
+        <span>Delivery information</span>
+        <span>Privacy policy</span>
+        <span>Tearms & Conditions</span>
+        <span>Site map</span>
+    </div>
+    <div class="footer-container">
+        <h1>My Account</h1>
+        <span>Order history</span>
+        <span>Wish list</span>
+        <span>News Letter</span>
+        <span>Return</span>
+    </div>
+    <div class="footer-container">
+        <h1>Subscribe Now</h1>
+        <div class="email-input-container">
+            <input type="email" placeholder="Enter your email address" class="email-input">
+            <i class="fas fa-envelope email-icon"></i>
+        </div>
+        <div class="social-media-icons">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+</footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
